@@ -1,2 +1,3 @@
-# FlashcardB-EFL
-Ho tro Hoc tieng Anh Effortless English tren Di dong. Sử dụng hệ thống thẻ động thông minh
+# PEAKI
+ Hoc tap dinh cao - Hoc moi thu - Theo cach hoat dong cua tri nao don gian nhat
+ Ho tro on thi - Luu giu va bo sung tri thuc tron doi!
