@@ -1,0 +1,52 @@
+<h2> XU LI FILE PHP </h2>
+
+<h3> Mo File </h3>
+<p>  Cu phap: 	<b>  open($path,$option) </b> 
+	$path: duong dan file can mo 
+	$option:		
+		r 	- Read only
+		r+ 	- Read + write
+		w 	- Write only
+		w+ 	- Write + read *
+		a	- Append data
+		b 	- Binary mode
+	Ex:	$path='input1.PKI';
+		$fp=fopen($path,"r"); (true/false)
+</p>
+
+
+<h3> Doc file </h3> 
+<p> Cu phap: <b> fgetc($path,$option) </b>
+	feof($fp): x end of file
+	fgetc # fgets # fread
+	Ex1: 
+	if (!$fp) {
+		echo 'Mo file khong thanh cong';
+		}
+	else
+		{
+		while (!feof($fp)) {
+			echo fgetc($fp);
+				}
+		}
+	Ex2: 
+		$data = fread($fp,filesize('input1.PKI'));
+		echo $data;
+</p>
+
+<h3> Ghi file </h3>
+<p> Cu phap <b> fwrite($fp,$content) </b> 
+</p>
+
+<h3> Dong file </h3>
+<p> Cu phap: <b> fclose($fp) </b>
+</p>
+
+<h3> Cac ham xu li # </h3>
+<p> 	Kiem tra file ton tai: <b> file_exist($fp) </b>
+	Kiem tra file cap quyen ghi: <b> is_writeable($fp) </b>
+	TXT FILE, URL> PLAIN TEXT,HTML: <b> file_get_contents($path) </b>
+</p>
+
+
+	
