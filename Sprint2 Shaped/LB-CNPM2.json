@@ -1,0 +1,42 @@
+{
+     "frame01":
+        { "header": "### NGHIEN CUU TINH KHA THI"  ,  
+          "keypoints": "Nham tra loi cho cau hoi: -Co nen phat trien he thong hay khong? \n Noi dung: \n o He thong duoc xay dung se giup ich gi cho to chuc? \n o He thong su dung cong nghe nao, kinh phi bao nhieu, thoi gian bao nhieu? \n He thong can phai tich hop voi he thong nao dang su dung?",
+          "keywords": 
+                [   { "key": "kha thi"  },
+                    { "key": "giup to chuc"},
+                    { "key": "cong nghe"},
+                    { "key": "kinh phi"},
+                    { "key": "thoi gian"},
+                    { "key": "tich hop voi he thong"}
+                ],
+            "mmedia":
+                    [
+                        {"res": "http://i.imgur.com/KXmdNfT.png"},
+                        {"res": "v=SUHzJ4AeCks"}
+                    ]
+        },
+        "frame02":
+        { "header": "### TRIỂN KHAI NGHIÊN CỨU TÍNH KHẢ THI"  ,  
+          "keypoints": "- Báo cáo khả thi được viết dựa trên các thông tin, báo cáo thu nhập được, những đánh giá ban đầu về hệ thống hiện tại và phác thảo các phương án dự kiến. \n - Câu hỏi đặt ra cho người tổ chức: \n * Cái gì xảy ra nếu hệ thống không được triển khai? \n * Những vấn đề gì cần giải quyết? \n * Hệ thống được đề xuất giúp họ như thế nào? \n * Những tích hợp gì cần phải có? \n * Công nghệ mới là gì, kỹ năng gì cần có? \n * Những tiện ích gì cần trợ giúp từ hệ thống?",
+          "keywords": 
+                [   { "key": "triển khai"  },
+                    { "key": "thông tin"},
+                    { "key": "báo cáo"},
+                    { "key": "đánh giá ban đầu"},
+                    { "key": "phương án dự kiến"},
+                    { "key": "hệ thống không triển khai"},
+                    { "key": "vấn đề cần giải quyết"},
+                    { "key": "giúp gì"},
+                    { "key": "tích hợp"},
+                    { "key": "công nghệ"},
+                    { "key": "kĩ năng"},
+                    { "key": "tiện ích"}
+                ],
+            "mmedia":
+                    [
+                        {"res": "ablity1.png"},
+                        {"res": "http://www.quirksmode.org/html5/videos/big_buck_bunny.webm"}
+                    ]
+        }
+}
